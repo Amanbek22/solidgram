@@ -4,7 +4,6 @@ import { sideBarElements } from "../../constants";
 
 const CustomLink = (props) => {
   const location = useLocation();
-  console.log(location);
   return (
     <Link
       className={`${css.link} ${
