@@ -22,6 +22,7 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route path="/post/:id" element={<h1>Hello post</h1>} />
         <Route path="/interesting" element={<HomePage />} />
         <Route path="/reels" element={<HomePage />} />
         <Route
